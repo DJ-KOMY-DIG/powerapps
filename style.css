@@ -1,0 +1,20 @@
+body {
+  margin: 50px;
+  background-image: url(RPiSystem.png);
+  /* text-align: center; */
+}
+
+h1 {
+  font-family: Arial;
+}
+
+#item {
+  margin: 50px;
+}
+
+table {
+  margin: 50px;
+  font: bold;
+  font-size: x-large;
+  font-family: Arial;
+}
