@@ -1,11 +1,24 @@
 body {
   margin: 50px;
-  background-image: url(RPiSystem.png);
+  background-image: url(background.png);
+  background-size:cover;
+  /* background-position:center; */
+  background-repeat: no-repeat;
   /* text-align: center; */
 }
 
 h1 {
   font-family: Arial;
+  color:blanchedalmond;
+}
+
+i {
+  color:gold;
+  /* color:hotpink; */
+}
+
+h2 {
+  color:chartreuse;
 }
 
 #item {
@@ -17,4 +30,13 @@ table {
   font: bold;
   font-size: x-large;
   font-family: Arial;
+  color:darkturquoise;
+}
+
+a:link {
+color:aqua;
+}
+
+a:visited {
+color:cadetblue;
 }
