@@ -33,6 +33,11 @@ table {
   color:darkturquoise;
 }
 
+table th, table td {
+  /*padding-top: 15px;    上余白 */
+  padding-bottom: 15px; /* 下余白 */
+}
+
 a:link {
 color:aqua;
 }
