@@ -5,6 +5,7 @@
 const appsLink = document.getElementById("apps");
 const onedriveLink = document.getElementById('onedrive');
 const notesLink = document.getElementById('notes');
+const questionLink = document.getElementById('question');
 
 appsLink.addEventListener('click', (e) => {
     console.log('Power Apps link clicked');
@@ -23,5 +24,11 @@ onedriveLink.addEventListener('click', (e) => {
 notesLink.addEventListener('click', (e) => {
     e.preventDefault();
     window.open('https://dj-komy-dig.github.io/sendnotes/receive.html', 'Receive Notes','width=1400, height=1000, noopener');
+    return false;
+});
+
+questionLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.open('https://forms.office.com/r/0LTf7fuaNU', 'アンケート','width=1400, height=1000, noopener');
     return false;
 });
